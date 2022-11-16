@@ -7,4 +7,14 @@
 }
 .elemento{
 	width: 25%;
+	line-height:4rem;
+}
+.elemento:first-child{
+	line-height:6rem;
+	background-color: blueviolet;
+}
+.elemento:nth-child(5){
+	line-height:2rem;
+	background-color: blue;
+	color: bisque;
 }
