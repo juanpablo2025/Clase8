@@ -4,6 +4,7 @@
 	flex-wrap:wrap;
 	justify-content:flex-start;
 	align-items: flex-start;
+	background: blueviolet;
 }
 .elemento{
 	width: 25%;
@@ -11,7 +12,7 @@
 }
 .elemento:first-child{
 	line-height:6rem;
-	background-color: blueviolet;
+	background: blueviolet;
 }
 .elemento:nth-child(5){
 	line-height:2rem;
